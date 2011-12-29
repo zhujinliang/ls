@@ -1,0 +1,38 @@
+Copyright (c) 2011 Zhu Jinliang
+
+Overview:
+----------
+It is just like the shell command ls, but it is realized by C language.
+
+How to use:
+---------
+Do as this:
+cd ls
+make     #compile the ls.c,then will creat "ls" which is an executable file. 
+
+Then there will be an executable file exists. Now, you can run it by clicking 
+"./ls" into the terminal.
+
+Function:
+----------
+1.与ls命令类似，命令行参数可以有0到多个 
+2.0个参数：列出当前目录下所有文件 
+3.参数为目录：列出目录下所有文件 
+4.-a：列出目录下所有文件包括以“.”和“..”开头的
+5.-d：当遇到目录时列出目录本身而非目录内的文件
+6.-l：使用较长格式列出信息
+7.-S：根据文件大小排序
+8.-t：根据文件修改时间排序
+
+Note:
+-------
+Since the author's ability is limited, the software may exist many bugs that I
+didn't have found and solve them. Please write them in a file, and send to me 
+if possible. I'll appreciate your work very much!
+
+Contact:
+---------
+If you want to make contact with me, mail me at this:
+zhujinlianghust#gmail.com
+
+-Zhu Jinliang, Nov 2011
